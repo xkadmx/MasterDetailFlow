@@ -28,7 +28,7 @@ public class DummyContent {
     static {
         addItem(new DummyItem("1", "Bucky", "http://samethinking.com/videos.php?cat=278&video=27365"));
         addItem(new DummyItem("2", "Forum", "http://samethinking.com/forum/"));
-        addItem(new DummyItem("1", "Video", "http://samethinking.com/videos.php"));
+        addItem(new DummyItem("3", "Video", "http://samethinking.com/videos.php"));
         // Add some sample items.
         for (int i = 1; i <= COUNT; i++) {
             addItem(createDummyItem(i));
